@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+
+.header-logo {
+  font-family: "Kalam", cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-right: 5rem;
+}
+
+.header-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.icon {
+  height: 2.1rem;
+  width: 2.1rem;
+  background-color: #f0f0f0;
+  align-items: center;
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.search-icon {
+  padding: 0.5rem;
+}
+
+.search-input {
+  font-size: 1rem;
+  height: 2.25rem;
+  margin-right: 1rem;
+  border: 1px solid gray;
+}
+
+.search-button {
+  font-size: 1rem;
+  height: 2.2rem;
+  background-color: #f0f0f0;
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+  margin-right: 5rem;
+}
+.search-button:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.header-postIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}

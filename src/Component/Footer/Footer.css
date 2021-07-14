@@ -1,0 +1,39 @@
+#socialMedia{
+    display: flex;
+    margin: auto;
+    padding: 3rem;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+
+.left-box{
+    border-right: 1px solid darkgray;
+}
+
+.right-box{
+    padding-left: .9rem;
+}
+
+#footer-name{
+    margin-top: 20px;
+    margin-right: 20px;
+    color: darkgray;
+}
+
+#socialMedia a{
+    margin-left: 10px;
+    font-size: 1em;
+    color: darkgray;
+    text-decoration: none;
+}
+
+.github-icon{
+    margin-left: 1rem;
+}
+
+.footer-links{
+    align-items: center;
+    margin-right: 1.7rem;
+}

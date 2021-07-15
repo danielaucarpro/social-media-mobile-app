@@ -103,17 +103,15 @@ export default function Feed() {
                                 <span className="text-sm ml-2 mb-2 align-bottom select-none">{data.likes} Likes </span>
                             </div>
 
-                            <span className="lg:font-black lg:mr-2 lg:text-base lg:mt-5
+                            <span className="lg:font-black lg:mr-2 lg:text-sm lg:mt-5 lg:inline-flex
                             md:hidden
                             sm:font-bold"
                             >{data.owner.firstName} </span>
-                            <span className="lg:text-sm lg:break-words
-                        md:flex md:mb-2
-                        sm:mb-12"
+                            <span className="lg:text-sm lg:break-words lg:inline-flex
+                                md:flex md:mb-2
+                                sm:mb-12"
                             >{data.text}</span>
-                            <div className="mb-2
-                        md:block
-                        sm:hidden">
+                            <div className="mb-2">
                                 {data.tags.map((tag, index) => {
                                     return <span className="text-sm mr-2 underline text-blue-900 cursor-pointer"
                                         key={index}>#{tag}
@@ -125,8 +123,7 @@ export default function Feed() {
                                 <Comments data={data} />
                                 : null
                             }
-
-                            <p onClick={isCommentOn} className='lg:hidden text-gray-400 cursor-pointer'>Add a comment...</p>
+                            <p onClick={isCommentOn} className='lg:hidden text-gray-400 cursor-pointer mt-3'>Add a comment...</p>
 
 
                             < form onSubmit={submit} className={`lg:block lg:mt-4

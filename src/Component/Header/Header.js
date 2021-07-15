@@ -19,7 +19,7 @@ const Header = props => {
 
     return (
         <>
-            <div className="p-6 h-20 flex justify-center items-center space-x-5 border">
+            <div className="p-6 h-20 flex justify-center items-center space-x-5 border fixed top-0 left-0 w-full bg-white z-10">
                 <h2 className='text-2xl font-mono'>Social Media App</h2>
                 {/* <div className="bg-gray-200 h-8 w-8 p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="search-icon" viewBox="0 0 16 16">
